@@ -35,4 +35,7 @@ cc_binary {
     ],
     proprietary: true,
 
+    sanitize: {
+        cfi: true,
+    },
 }

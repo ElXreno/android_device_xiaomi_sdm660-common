@@ -18,4 +18,7 @@ cc_binary {
 
     owner: "google",
 
+    sanitize: {
+        cfi: true,
+    },
 }
