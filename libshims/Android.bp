@@ -19,8 +19,10 @@ cc_library_shared {
         "libui",
         "libutils",
     ],
-
     proprietary: true,
+    sanitize: {
+        cfi: true,
+    },
 }
 
 cc_library_shared {

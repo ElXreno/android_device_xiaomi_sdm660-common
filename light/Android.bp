@@ -27,4 +27,7 @@ cc_binary {
     ],
     relative_install_path : "hw",
     vendor: true,
+    sanitize: {
+        cfi: true,
+    },
 }
